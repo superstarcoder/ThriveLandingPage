@@ -23,7 +23,6 @@
 	display: flex;
 	flex-direction: row;
 	gap: 2em;
-
 }
 
 @media (max-width: 1000px) {
@@ -56,6 +55,11 @@
 	font-family: "MPlusMedium";
 }
 
+.Install-Button:hover {
+	background: linear-gradient(to right, #5BA54E, #5BA54E);
+}
+
+
 .Discord-Button {
 
 	display: flex;
@@ -78,6 +82,13 @@
 	display: inline-block;
 	position: relative;
 	font-family: "MPlusMedium";
+	z-index: 0;
+}
+
+.Discord-Button:hover {
+    background-position: right center; /* Move background position to create the effect */
+	background: linear-gradient(to right, #5BA54E, #5BA54E);
+	color: black;
 }
 
 /* Styling common to all sections */

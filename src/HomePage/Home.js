@@ -10,7 +10,7 @@ import MissionSection from './MissionSection'
 function Home() {
 	return (
 		<div className='Home'>
-			<IntroSection backgroundColor={"#151934"} viewHeight={"55em"}/>
+			<IntroSection backgroundColor={"#151934"} viewHeight={"50em"}/>
 			<HabitSection backgroundColor={"#252B55"} viewHeight={"30em"}/>
 			<ThemeSection backgroundColor={"#151934"} viewHeight={"30em"} />
 			<AiSection backgroundColor={"#252B55"} viewHeight={"30em"} />
