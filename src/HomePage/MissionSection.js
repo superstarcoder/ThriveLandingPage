@@ -3,14 +3,15 @@ import PageSection from '../components/PageSection'
 import "./Home.css"
 // import FullLogoImg from "../assets/full_logo.png"
 import MissionSectionAid from "../assets/ThriveAppIcon.png"
+import { DISCORD_URL, INSTALL_URL } from '../AppConstants'
 
 function MissionSection({ backgroundColor, viewHeight }) {
 
 	const onInstallClick = () => {
-
+		window.open(INSTALL_URL, "blank_", "noreferrer")
 	}
 	const onDiscordClick = () => {
-
+		window.open(DISCORD_URL, "blank_", "noreferrer")
 	}
 
 	const SectionLeft =
